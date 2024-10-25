@@ -30,7 +30,7 @@ def clean_metadata(pdf_path):
         pdf.save("archivo_final_limpio.pdf")
 
 # Ruta del archivo PDF original
-original_pdf = "/pdf_name.pdf"
+original_pdf = "pdf_name.pdf"
 
 # Ejecutar el proceso de limpieza exhaustiva
 clean_metadata(original_pdf)
